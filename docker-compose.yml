@@ -5,6 +5,7 @@ services:
     privileged: true
     stdin_open: true
     tty: true
+    platform: linux/amd64
     environment:
       CI: "1"
       DEBIAN_FRONTEND: noninteractive
